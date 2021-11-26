@@ -1,0 +1,45 @@
+
+<nav id="sidebar" style="background-color:#1B2631; max-height: 100%; min-height: 100%;">
+    <div class="p-4 pt-5" style="position: fixed; min-width: 300px; max-width: 300px;">
+        <a href="#" class="img logo mb-5"
+            style="background-image: url(../../../assets/images/sync.png);"></a>
+        <ul class="list-unstyled components mb-5">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Sync Up</a>
+            </li>
+            <li>
+                <a href="#">Logs</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+            <li class="inactive">
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Config</a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="#">Theme</a>
+                    </li>
+                    <li>
+                        <a href="#">language</a>
+                    </li>
+                </ul>
+            </li>
+            
+        </ul>
+
+        <div class="footer container-fluid">
+            <div class="row justify-content-center">
+                <button class="col-8 btn logout"  (click)="logout()">log out</button>
+            </div>
+        </div>
+
+    </div>
+</nav>
+    
+
